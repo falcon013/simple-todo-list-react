@@ -132,3 +132,9 @@ select {
     cursor: pointer;
     pointer-events: none;
 }
+
+.todo-button:disabled{
+    border: 1px solid #999999;
+    background-color: #cccccc;
+    color: #666666;
+}
